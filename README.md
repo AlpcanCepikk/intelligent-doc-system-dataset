@@ -17,3 +17,12 @@ my_dataset/
 ├── docx/ # engineering reports
 
 ├── txt/ # SMS Spam Collection
+
+You can review or download the dataset from the link below.
+https://huggingface.co/datasets/CepikAlpcan/Intelligent-Document-System-Dataset/tree/main
+
+from datasets import load_dataset
+
+dataset = load_dataset("CepikAlpcan/Intelligent-Document-System-Dataset", streaming=True)
+first_sample = next(iter(dataset))
+print(first_sample)
