@@ -11,6 +11,7 @@ This dataset is designed for testing **RAG pipelines, embeddings, and multi-form
 ## Structure
 
 my_dataset/
+
 ├── pdfs/ # arXiv PDFs
 
 ├── docx/ # engineering reports
