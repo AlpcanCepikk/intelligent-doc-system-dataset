@@ -18,11 +18,17 @@ my_dataset/
 
 ├── txt/ # SMS Spam Collection
 
+
+
 You can review or download the dataset from the link below.
+
 https://huggingface.co/datasets/CepikAlpcan/Intelligent-Document-System-Dataset/tree/main
 
+To easily use in your code
+```python
+# Load with streaming (no local download)
 from datasets import load_dataset
 
-dataset = load_dataset("CepikAlpcan/Intelligent-Document-System-Dataset", streaming=True)
-first_sample = next(iter(dataset))
-print(first_sample)
+ds = load_dataset("CepikAlpcan/Intelligent-Document-System-Dataset", streaming=True)
+first = next(iter(ds["train"]))  # or simply: next(iter(ds))
+print(first)
