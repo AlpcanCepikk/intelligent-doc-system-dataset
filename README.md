@@ -1,2 +1,16 @@
-# intelligent-doc-system-dataset
-A small multi-format dataset for Intelligent Document System experiments and synthetic data generation. Contains 33 academic PDFs, 2 engineering DOCX reports, and the SMS Spam Collection (text).
+# Intelligent Document System Dataset
+
+A small multi-format dataset prepared for **Intelligent Document System** experiments and **synthetic data generation**.  
+This dataset is designed for testing **RAG pipelines, embeddings, and multi-format document loaders**.
+
+## Contents
+- 33 × PDF (academic papers from arXiv)
+- 2 × DOCX (engineering reports/templates)
+- 1 × TXT (SMS Spam Collection dataset)
+
+## Structure
+
+my_dataset/
+├── pdfs/ # arXiv PDFs
+├── docx/ # engineering reports
+├── txt/ # SMS Spam Collection
