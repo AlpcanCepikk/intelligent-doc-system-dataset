@@ -12,5 +12,7 @@ This dataset is designed for testing **RAG pipelines, embeddings, and multi-form
 
 my_dataset/
 ├── pdfs/ # arXiv PDFs
+
 ├── docx/ # engineering reports
+
 ├── txt/ # SMS Spam Collection
